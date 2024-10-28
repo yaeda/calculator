@@ -1,0 +1,19 @@
+{
+  "name": "@yaeda/calculator",
+  "version": "0.0.0",
+  "description": "a calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaeda/calculator.git"
+  },
+  "author": "Takeshi Yaeda <t.yaeda@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaeda/calculator/issues"
+  },
+  "homepage": "https://github.com/yaeda/calculator#readme"
+}
