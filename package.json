@@ -10,7 +10,9 @@
   "scripts": {
     "build": "tsc",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "release": "np",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "./dist/src"
@@ -27,6 +29,7 @@
   "homepage": "https://github.com/yaeda/calculator#readme",
   "devDependencies": {
     "@vitest/coverage-v8": "^2.1.4",
+    "np": "^10.0.7",
     "typescript": "^5.6.3",
     "vitest": "^2.1.4"
   },
