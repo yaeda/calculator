@@ -47,7 +47,7 @@ calc("1 / 3", { digits: 3 }); // 0.333
 calc("invalid expression"); // null
 ```
 
-For more examples, please refer to the `./test` directory.
+For more examples, please refer to the [test directory](./test).
 
 ## API
 
